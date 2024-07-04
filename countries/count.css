@@ -20,19 +20,19 @@ section:first-of-type {
 }
 
 section:nth-of-type(2) {
-  background-image: radial-gradient(circle 200px, red 75%, white 70%);
+  background-image: radial-gradient(circle 200px, red 40%, white 0%);
 }
 section:nth-of-type(3) {
   background-image: linear-gradient(
     red 30%,
     white 30%,
-    white 33%,
-    blue 33%,
-    blue 53%,
-    white 53%,
-    white 55%,
-    green 55%,
-    green 100%
+    white 35%,
+    blue 35%,
+    blue 65%,
+    white 65%,
+    white 70%,
+    green 70%,
+    green 0%
   );
 }
 
@@ -40,9 +40,9 @@ section:nth-of-type(4) {
   background-image: linear-gradient(
     green 40%,
     yellow 40%,
-    yellow 70%,
-    blue 70%,
-    blue 100%
+    yellow 60%,
+    blue 60%,
+    blue 80%
   );
 }
 section:nth-of-type(5) {
@@ -60,15 +60,51 @@ section:nth-of-type(6) {
   background-image: linear-gradient(
     black 40%,
     yellow 40%,
-    yellow 70%,
-    rgb(198, 176, 52) 70%,
-    rgb(198, 176, 52) 70%
+    yellow 60%,
+    red 60%,
+    red 80%
   );
 }
 
 section:nth-of-type(7) {
   background-image: linear-gradient(
     black 40%,
-    red 40% red 70% gold 70% gold 70%
+    red 40%,
+    red 70%,
+    gold 70%,
+    gold 70%
   );
+}
+
+section:nth-of-type(8){
+  background-image: url(./star.png),
+    linear-gradient(red 40%, yellow 40%, yellow 70%, green 70%, green 70%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section:nth-of-type(9) {
+  background-color: red;
+  background-image: 
+  url(./yellowstar.png), 
+  url(./yellowstar.png),
+  url(./yellowstar.png), 
+  url(./yellowstar.png), 
+  url(./yellowstar.png),
+  radial-gradient(red, red);
+
+  background-repeat: no-repeat;
+  background-size: 
+  85px,
+  20px, 
+  20px, 
+  20px, 
+  20px;
+  background-position: 
+  30px 45px,
+  140px 30px,
+  160px 70px, 
+  160px 110px,
+  140px 150px, 
+  0;
 }
