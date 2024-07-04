@@ -61,16 +61,14 @@ section:nth-of-type(6) {
     black 40%,
     yellow 40%,
     yellow 70%,
-    rgb(198, 176, 52) (198, 46, 46) 70%,
-    rgb(198, 176, 52) (198, 46, 46) 70%
+    rgb(198, 176, 52) 70%,
+    rgb(198, 176, 52) 70%
   );
 }
 
 section:nth-of-type(7) {
   background-image: linear-gradient(
     black 40%,
-    red 40%,
-    red 70%,
-    gold 70% gold 100%
+    red 40% red 70% gold 70% gold 70%
   );
 }
