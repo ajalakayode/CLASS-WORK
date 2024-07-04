@@ -47,11 +47,30 @@ section:nth-of-type(4) {
 }
 section:nth-of-type(5) {
   background-image: linear-gradient(
-    green 40%,
-    yellow 40%,
-    yellow 70%,
-    blue 70%,
-    blue 100%
+    90deg,
+    rgb(44, 44, 134) 40%,
+    white 40%,
+    white 70%,
+    red 70%,
+    red 100%
   );
 }
 
+section:nth-of-type(6) {
+  background-image: linear-gradient(
+    black 40%,
+    yellow 40%,
+    yellow 70%,
+    rgb(198, 176, 52) (198, 46, 46) 70%,
+    rgb(198, 176, 52) (198, 46, 46) 70%
+  );
+}
+
+section:nth-of-type(7) {
+  background-image: linear-gradient(
+    black 40%,
+    red 40%,
+    red 70%,
+    gold 70% gold 100%
+  );
+}
