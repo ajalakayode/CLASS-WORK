@@ -8,8 +8,11 @@ section {
   margin: 25px auto;
   border: 10px solid blue;
 }
+.a {
+  text-align: center;
+}
 
-section:first-of-type {
+section:nth-of-type(1) {
   background-image: linear-gradient(
     90deg,
     green 33%,
@@ -17,6 +20,9 @@ section:first-of-type {
     white 67%,
     green 67%
   );
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 section:nth-of-type(2) {
@@ -58,6 +64,7 @@ section:nth-of-type(5) {
 
 section:nth-of-type(6) {
   background-image: linear-gradient(
+    90deg,
     black 40%,
     yellow 40%,
     yellow 60%,
@@ -68,6 +75,7 @@ section:nth-of-type(6) {
 
 section:nth-of-type(7) {
   background-image: linear-gradient(
+    90deg,
     black 40%,
     red 40%,
     red 70%,
@@ -76,7 +84,7 @@ section:nth-of-type(7) {
   );
 }
 
-section:nth-of-type(8){
+section:nth-of-type(8) {
   background-image: url(./star.png),
     linear-gradient(red 40%, yellow 40%, yellow 70%, green 70%, green 70%);
   background-repeat: no-repeat;
@@ -85,26 +93,12 @@ section:nth-of-type(8){
 
 section:nth-of-type(9) {
   background-color: red;
-  background-image: 
-  url(./yellowstar.png), 
-  url(./yellowstar.png),
-  url(./yellowstar.png), 
-  url(./yellowstar.png), 
-  url(./yellowstar.png),
-  radial-gradient(red, red);
+  background-image: url(./yellowstar.png), url(./yellowstar.png),
+    url(./yellowstar.png), url(./yellowstar.png), url(./yellowstar.png),
+    radial-gradient(red, red);
 
   background-repeat: no-repeat;
-  background-size: 
-  85px,
-  20px, 
-  20px, 
-  20px, 
-  20px;
-  background-position: 
-  30px 45px,
-  140px 30px,
-  160px 70px, 
-  160px 110px,
-  140px 150px, 
-  0;
+  background-size: 85px, 20px, 20px, 20px, 20px;
+  background-position: 30px 45px, 140px 30px, 160px 70px, 160px 110px,
+    140px 150px, 0;
 }
